@@ -23,7 +23,7 @@ const musicSchoolTestimonials = [
     },
     {
       quote:
-        'As a violinist, finding the right mentor can be challenging, but this school matched me with a teacher who truly understands my goals and challenges.',
+        'As a violinist, finding the right mentor can be challenging, but this school matched me with a teacher who truly understands my goals and challenges.'
       name: 'Emile Taylor',
       title: 'Violin Student',
     },
