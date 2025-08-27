@@ -13,11 +13,11 @@ function Navbar({ className }: { className?: string }): React.ReactNode {
   const [active, setActive] = useState<string | null>(null);
   return (
     <div
-      className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50", className)}
+      className={cn("fixed top-15 inset-x-0 max-w-2xl mx-auto z-50 text-white", className)}
     >
       <Menu setActive={setActive}>
         <Link href={"#"}>
-          <MenuItem setActive={setActive} active={active} item="Home">
+          <MenuItem  setActive={setActive} active={active} item="Home">
           </MenuItem>
         </Link>
         <MenuItem setActive={setActive} active={active} item="Our Courses">
